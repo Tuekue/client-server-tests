@@ -9,6 +9,7 @@ print(data)
 print("j data", type(client_jdata))
 print(client_jdata)
 
-print(data['10.1.1.254']['client_name'])
-print(data['10.1.1.11']['DISKS'])
+print(data['gsu']['IP'])
+print(data['gsu']['DISKS']['sda3'])
+print(data['opcon-17']['DISKS'])
 

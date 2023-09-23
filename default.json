@@ -1,38 +1,56 @@
 {
-    "10.1.1.254": 
+    "gsu": 
         {
-            "client_name" : "gsu",
+            "hostname" : "gsu",
+            "IP" : "10.1.1.254",
             "CPU" : "0.2,1.9,2.0",
             "GW" : "NA",
             "RAM" : 39,
-            "DISKS": "sda1,14,sda2,48,sda3,22"
+            "DISKS": { 
+                "sda1" : "14",
+                "sda2" : "48",
+                "sda3" : "22" 
+            }
         }
     ,
-    "10.1.1.11": 
+    "opcon-01": 
         {
-            "client_name" : "opcon-01",
+            "hostname" : "opcon-01",
             "CPU" : "0.2,1.9,2.0",
+            "IP" : "10.1.1.11",
             "GW" : "NA",
             "RAM" : 39,
-            "DISKS": "sda1,14,sda2,48,sda3,22"
+            "DISKS": { 
+                "sda1" : "11",
+                "sda2" : "77"
+            }
         }
     ,
-    "10.1.1.14": 
+    "opcon-04": 
         {
-            "client_name" : "opcon-04",
+            "hostname" : "opcon-04",
+            "IP" : "10.1.1.14",
             "CPU" : "0.2,1.9,2.0",
             "GW" : "NA",
             "RAM" : 39,
-            "DISKS": "sda1,14,sda2,48,sda3,22"
+            "DISKS": { 
+                "sda1" : "12",
+                "sda2" : "36" 
+            }
         }
     ,
-    "10.1.1.17": 
+    "opcon-17": 
         {
-            "client_name" : "opcon-07",
+            "hostname" : "opcon-17",
+            "IP" : "10.1.1.27",
             "CPU" : "0.2,1.9,2.0",
             "GW" : "NA",
             "RAM" : 39,
-            "DISKS": "sda1,14,sda2,48,sda3,22"
+            "DISKS": { 
+                "sda1" : "4",
+                "sda2" : "89",
+                "sda3" : "22" 
+            }
         }
     
 }

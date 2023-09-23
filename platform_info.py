@@ -1,3 +1,10 @@
+'''
+one liner olarak 
+   python3 -c  "import psutil;print(f'Used RAM %: {psutil.virtual_memory().percent}%')"
+kullanabiliyoruz
+
+'''
+
 import platform
 import psutil
 import cpuinfo
