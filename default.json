@@ -1,0 +1,38 @@
+{
+    "10.1.1.254": 
+        {
+            "client_name" : "gsu",
+            "CPU" : "0.2,1.9,2.0",
+            "GW" : "NA",
+            "RAM" : 39,
+            "DISKS": "sda1,14,sda2,48,sda3,22"
+        }
+    ,
+    "10.1.1.11": 
+        {
+            "client_name" : "opcon-01",
+            "CPU" : "0.2,1.9,2.0",
+            "GW" : "NA",
+            "RAM" : 39,
+            "DISKS": "sda1,14,sda2,48,sda3,22"
+        }
+    ,
+    "10.1.1.14": 
+        {
+            "client_name" : "opcon-04",
+            "CPU" : "0.2,1.9,2.0",
+            "GW" : "NA",
+            "RAM" : 39,
+            "DISKS": "sda1,14,sda2,48,sda3,22"
+        }
+    ,
+    "10.1.1.17": 
+        {
+            "client_name" : "opcon-07",
+            "CPU" : "0.2,1.9,2.0",
+            "GW" : "NA",
+            "RAM" : 39,
+            "DISKS": "sda1,14,sda2,48,sda3,22"
+        }
+    
+}

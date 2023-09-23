@@ -8,6 +8,14 @@ import types
 sel = selectors.DefaultSelector()
 messages = [b"Message 1 from client.", b"Message 2 from client."]
 
+def accept_wrapper(sock):
+    conn, addr = sock.accept()  # Should be ready to read
+    print(f"Accepted connection from {addr}")
+    conn.setblocking(False)
+    data = types.SimpleNamespace(addr=addr, inb=b"", outb=b"")
+    events = selectors.EVENT_READ | selectors.EVENT_WRITE
+    sel.register(conn, events, data=data)
+    
 def service_connection(key, mask):
     sock = key.fileobj
     data = key.data
